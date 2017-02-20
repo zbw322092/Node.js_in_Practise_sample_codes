@@ -1,0 +1,3 @@
+This event is emitted when Node.js empties its event loop and has nothing else to schedule. Normally, Node.js exits when there is no work scheduled, but a listener for 'beforeExit' can make asynchronous calls, and cause Node.js to continue.
+
+'beforeExit' is not emitted for conditions causing explicit termination, such as process.exit() or uncaught exceptions, and should not be used as an alternative to the 'exit' event unless the intention is to schedule more work.
