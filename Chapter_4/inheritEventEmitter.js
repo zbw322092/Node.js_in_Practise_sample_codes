@@ -18,6 +18,8 @@ function MusicPlayer() {
 util.inherits(MusicPlayer, events.EventEmitter);
 
 var musicPlayer = new MusicPlayer();
+console.log(musicPlayer);
+console.log(MusicPlayer.super_);
 
 function play(track) {
   this.playing = true;
