@@ -6,3 +6,9 @@ try {
 } catch(err) {
 	console.error(err);
 }
+
+
+finder.find(/file*/, './root', function (err, results) {
+  if (err) return console.error(err);
+  console.log('async version: ', results);
+});
