@@ -1,0 +1,8 @@
+var config = {
+    "site title": "My Site",
+    "site base url": "http://mysite.com",
+    "google maps key": "92asdfase8230232138asdfasd",
+    "site aliases": [ "http://www.mysite.com", "http://mysite.net" ]
+};
+
+module.exports = config;
