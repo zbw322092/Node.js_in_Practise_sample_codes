@@ -1,0 +1,18 @@
+{
+  "name": "chapter_9",
+  "version": "1.0.0",
+  "description": "sub folder npm init",
+  "main": "nodeModulesInBrowser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sub",
+    "folder"
+  ],
+  "author": "Bowen",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
